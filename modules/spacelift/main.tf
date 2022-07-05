@@ -2,7 +2,7 @@ provider "spacelift" {}
 
 module "spacelift" {
   source  = "cloudposse/cloud-infrastructure-automation/spacelift"
-  version = "0.49.3"
+  version = "0.49.4"
 
   context_filters = var.context_filters
 
